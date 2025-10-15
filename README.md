@@ -1,7 +1,29 @@
-[![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# Estate Agent Analytics
+ 
+For the client Timothy Stevens:
+Seller	Owns expensive houses in the center, needs to get rid, best timing within a year, open for renovation when profits rise
 
-Template for creating ds simple projects
+Give recommendation based on the data set: King County Estate Data
+
+## General approach
+
+Find the full description of assignment [here](assignment.md).
+
+Find a description of all data set column names [here](column_names.md).
+
+Data analysis and creation of diagrams can be found in [EDA.jpynb](EDA.jpynb)
+
+## Data extraction for offline usage
+
+Data extracted via DBeaver SQL by merging two tables:
+
+SELECT * FROM king_county_house_sales
+JOIN king_county_house_details kchd
+ON king_county_house_sales.house_id   = kchd.id
+
+Data was stored as csv file: data/estates.csv
+
+# Technical Setup 
 
 ## Requirements
 
