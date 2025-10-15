@@ -7,9 +7,9 @@ Give recommendation based on the data set: King County Estate Data
 
 ## General approach
 
-Find the full description of assignment [here](assignment.md).
+Assignment information is [here](assignment.md).
 
-Find a description of all data set column names [here](column_names.md).
+Data set column names are listed [here](column_names.md).
 
 Data analysis and creation of diagrams can be found in [EDA.jpynb](EDA.jpynb)
 
